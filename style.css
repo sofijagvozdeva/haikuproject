@@ -1,0 +1,146 @@
+body {
+width: 90%;
+margin: 0 auto;}
+
+#content {
+	overflow: auto;
+}
+
+#name, #nav, #content, #heroImage, #footer {
+	margin: 1%;
+}
+
+#nav, #footer {
+	background-color:#420E20;
+	padding: 0.5em 0;
+}
+
+/** HEAD TITLE **/
+h1{
+	font-family: 'Caveat', cursive;
+	font-size:3.3em;
+	font-weight:lighter;
+	color: #420E20;
+	text-align: right;
+}
+/** Nav bar buttons  **/
+a.nav:link, a.nav:visited {
+	color:#efefef;
+	text-decoration:none;
+}
+a.nav:hover, a.nav:active{
+	color:#D8C99B;
+	font-weight:bold;
+}
+li {
+	display: inline;
+	padding: 0.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#efefef;
+}
+
+/** Hero image **/
+#heroImage{
+	background-color:#efefef;
+}
+img.heroImage{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+/** MAIN BLOCK - "HAIKU" **/
+.aboutUs{
+height: 24em;
+width: 68%;
+float: left;
+margin-bottom: 1em;
+background-color:#420E20;}
+
+a.aboutUsLink:link, a.aboutUsLink:visited{
+	text-decoration:none;
+}
+a.aboutUsLink:hover, a.aboutUsLink:active{
+	color:#D8AD70;
+	font-weight:bold;
+}
+h2.aboutUsTitle{
+	padding-left:0.5em;
+	padding-right:2.5em;
+	text-align: left;
+	font-size: 3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #D8C99B;
+}
+p{
+	padding-left:1.5em;
+	padding-right:2.5em;
+	text-align: left;
+	font-size: 1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #efefef;
+}
+
+/** SIDE BLOCK - QUOTE **/
+.social{
+height: 24em;
+width: 30%;
+float: right;
+margin-bottom: 1em;
+background-color:#420E20;
+}
+p.poem{
+	font-size: 2em;
+	color: D8C999;
+	border-top: 0.05em solid #665544;
+}
+p.authorName{
+	color: D8C999;
+	font-weight:bold;
+	text-align:right;
+	border-bottom: 0.05em solid #665544;
+}
+
+/** CASE STUDY BLOCK - IMAGE **/
+.caseStudy{
+height: 42.5em;
+margin-bottom: 1em;
+/**background-color:#420E20; **/
+clear:both; 
+}
+img.caseImage{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/** 3 COLOUMNS  **/
+.whoWeAre, .whatWeDo, .joinUs{
+	width: 30.3%;
+	float: left;
+	margin: 1em;
+	background-color:#D8C99B;
+	}
+.joinUs: {margin-right: 0%;}	
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#420E20;
+	text-transform: uppercase;
+	text-align:center;
+}
+a.col:link, a.col:visited{
+	color:#420E20;
+	text-decoration:none;
+}
+a.col:hover, a.col:active{
+	color:#991E49;
+	font-weight:bold;
+}
+
+/** FOOTER TEXT **/
+p.footer{
+	text-align:center;
+	color: #D8C999;
+}
